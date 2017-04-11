@@ -1,0 +1,49 @@
+.container {
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.main-header {
+  padding-top: 0.2em;
+  padding-bottom: 1.5em;
+  background: #F9F9F9;
+  margin-bottom: 20px;
+  overflow: hidden; }
+
+.contact {
+  background: #F9F9F9;
+  border-bottom: 1px solid #EFEFEF; }
+
+.profile {
+  background: #BABABA; }
+
+.contact.title {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  margin-top: 5px;
+  margin-bottom: 40px; }
+
+.block {
+  width: 100%;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  display: block; }
+
+img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  display: block; }
+
+.project-block {
+  padding: 0 10px; }
+
+.face {
+  margin: 0 auto;
+  display: block;
+  width: 80%;
+  max-width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+footer {
+  background: #F9F9F9; }

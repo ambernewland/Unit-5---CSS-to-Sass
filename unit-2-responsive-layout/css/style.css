@@ -1,0 +1,16 @@
+ /*** BASE STYLES ***/
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+/*** Float Clearfix ***/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,54 @@
+//links
+
+@mixin linky {
+        color: $primary-color;
+        text-decoration: none;
+    &:visited {
+        color: $dark-primary;
+    }
+    &:hover {
+        color: $blinks;
+    }
+    &:active{
+        color: $active-blinks;
+}
+}
+
+//Gallery Titles
+
+@mixin titley {
+    font-size: 13pt;
+    font-weight: $bold;
+    text-align: $align;
+    color: $dark-primary;
+}
+
+
+//lists
+
+
+@mixin lists {
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 1em;
+}
+
+
+
+
+
+//media query mixins
+
+
+@mixin bp-m {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin bp-l {
+    @media only screen and (min-width: 992px) {
+        @content;
+    }
+}
+

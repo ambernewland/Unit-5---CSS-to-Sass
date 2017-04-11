@@ -1,0 +1,115 @@
+@import "Base/_index.scss";
+@import "Utilities/_index.scss";
+@import "Layout/_index.scss";
+
+
+
+//Breakpoints
+
+h1 {
+    @include bp-l {
+        text-align: left;
+        padding: 20px 0 0 0;
+    }
+}
+
+.container {
+    
+    @include bp-m {
+        width: 95%;
+		max-width: 1150px;
+		margin: 0 auto;
+    }
+}
+
+.footer-nav {
+    @include bp-m {
+    li {
+    display: inline-block;
+        width: auto;
+        margin-left: 30px;
+        }
+    .mobile-only {
+        display: none;
+        }
+    }
+}
+    
+    .main-nav li {
+    
+        @include bp-m {
+            display: inline-block;
+            width: auto;
+            padding: 0px 30px;
+            text-align: center;
+            background: transparent;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+    }
+}
+    
+    nav {
+        @include bp-m {
+            width: 100%;
+            display: block;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+    }
+    
+    .main-nav {
+        @include bp-m {
+            font-weight: bold;
+            font-size: 10pt;
+            text-align: center;
+    }
+        @include bp-l {
+            display: inline-block;
+            float: right;
+            overflow: hidden;
+            margin-right: -20px;
+        }    
+}
+
+    p.about-text {
+        @include bp-m {
+            text-align: left;
+        }
+    }
+
+    img.face {
+        @include bp-m {
+            float: right;
+            max-width: 45%;
+            vertical-align: top;
+            display: block;
+            position: relative;
+            margin: 0;
+            margin-left: 30px;
+        }
+}
+        
+    .project-block {
+        @include bp-m {
+            width: 49.5%;
+            padding-left: 0.3em;
+            padding-right: 0.3em;
+            display: inline-block;
+            float: left;
+        }
+        @include bp-l {
+            width: 33%;
+            padding-left: 0.3em;
+            padding-right: 0.3em;
+            display: inline-block;
+        }
+}
+
+    .bottom-detail {
+        @include bp-m {
+            margin-bottom: 40px;
+        }
+    }
+

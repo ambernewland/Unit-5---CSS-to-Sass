@@ -1,0 +1,67 @@
+
+// Layout Containers
+
+footer {
+    background: $off-white;    
+}
+
+.container {
+    
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main-header {
+    
+    @extend footer;
+    padding-top: 0.2em;
+    padding-bottom: 1.5em;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.contact {
+    
+    border-bottom: 1px solid $border;
+}
+
+.profile {
+    background: $border;
+}
+
+.contact.title {
+    
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.block {
+    
+    width: $full-width;
+    align-content: $align;
+    display: $con-block;
+}
+
+img {
+    max-width: $full-width;
+    margin-bottom: 1em;
+    display: $con-block;
+}
+
+.project-block {
+    
+    padding: 0 10px;
+}
+
+.face {
+    
+    margin: 0 auto;
+    display: $con-block;
+    width: 80%;
+    max-width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}

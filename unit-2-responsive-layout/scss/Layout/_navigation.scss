@@ -1,0 +1,50 @@
+
+//Navigation
+
+.main-nav li{
+	text-align: $align;
+	background: $white;
+    padding: 10px 0 10px 0;
+	margin: 5px 0 5px 0;
+    }
+
+.main-footer {
+    .left {
+    width: $full-width / 2;
+    display: block;
+    float: left;
+    padding: 0 20px;
+    }
+    .right {
+    float: right;
+    }
+    width: $full-width;
+    display: block;
+    float: left;
+    padding-top: 10px;
+}
+
+.footer-nav {
+    li {
+    display: none;
+    }
+    .mobile-only {
+    display: inline-block;
+    text-align: left;
+    }
+}
+
+ul.footer-nav {
+    text-align: right;
+}
+
+footer .left p {
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.bottom-detail {
+    padding-bottom: 40px;
+    display: $con-block;
+}
