@@ -90,7 +90,7 @@ li {
   text-decoration: none;
   padding-bottom: 1em; }
 
-.contact {
+.contact, .profile {
   text-align: center;
   color: #828489; }
 
@@ -107,13 +107,10 @@ footer, .main-header {
   margin-bottom: 20px;
   overflow: hidden; }
 
-.contact {
+.contact, .profile {
   border-bottom: 1px solid darken #F9F9F9, 20%; }
 
-.profile {
-  background: darken #F9F9F9, 20%; }
-
-.contact.title {
+.contact.title, .title.profile {
   padding-top: 10px;
   padding-bottom: 40px;
   margin-top: 5px;
@@ -180,7 +177,7 @@ footer .left p, .main-header .left p, footer .left h2, .main-header .left h2 {
   padding-bottom: 40px;
   display: block; }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   h1 {
     text-align: left;
     padding: 20px 0 0 0; } }
@@ -224,7 +221,7 @@ footer .left p, .main-header .left p, footer .left h2, .main-header .left h2 {
     font-size: 10pt;
     text-align: center; } }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   .main-nav {
     display: inline-block;
     float: right;
@@ -253,7 +250,7 @@ footer .left p, .main-header .left p, footer .left h2, .main-header .left h2 {
     display: inline-block;
     float: left; } }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   .project-block {
     width: 33%;
     padding-left: 0.3em;

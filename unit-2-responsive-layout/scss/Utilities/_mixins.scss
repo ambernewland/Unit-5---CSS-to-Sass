@@ -41,13 +41,13 @@
 
 
 @mixin bp-m {
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: $break-medium) {
         @content;
     }
 }
 
 @mixin bp-l {
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: $break-large) {
         @content;
     }
 }

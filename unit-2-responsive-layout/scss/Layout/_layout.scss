@@ -26,7 +26,7 @@ footer {
 }
 
 .profile {
-    background: $border;
+    @extend .contact;
 }
 
 .contact.title {
