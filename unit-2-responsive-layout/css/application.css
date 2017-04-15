@@ -116,17 +116,17 @@ footer, .main-header {
   margin-top: 5px;
   margin-bottom: 40px; }
 
-.block {
-  width: 100%;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
+.block, img {
+  max-width: 100%;
   display: block; }
 
+.block {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
+
 img {
-  max-width: 100%;
-  margin-bottom: 1em;
-  display: block; }
+  margin-bottom: 1em; }
 
 .project-block {
   padding: 0 10px; }
