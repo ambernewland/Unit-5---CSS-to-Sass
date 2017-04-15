@@ -37,17 +37,20 @@ footer {
     margin-bottom: 40px;
 }
 
-.block {
-    
-    width: $full-width;
-    align-content: $align;
+
+%img-block {
+    max-width: $full-width;
     display: $con-block;
 }
 
+.block {
+    @extend %img-block;
+    align-content: $align;
+}
+
 img {
-    max-width: $full-width;
+    @extend %img-block;
     margin-bottom: 1em;
-    display: $con-block;
 }
 
 .project-block {
